@@ -154,6 +154,7 @@ body {
 }
 #footer h2 {
   flex-basis: 60%;
+  font-family: 'EB Garamond', serif;
   font-size: 4.2vw;
   color: #ffffff;
 }
