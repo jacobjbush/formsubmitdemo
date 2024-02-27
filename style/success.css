@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* HEADER */
+#header {
+  width: 100vw;
+  height: 90vh;
+
+  background-color: #222222;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#header h1 {
+  font-size: 5.6vw;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #F1EFE9;
+}
+#header p {
+  font-size: 1.8vw;
+  font-weight: normal;
+  color: #F1EFE9;
+  margin-bottom: 2rem;
+}
+#header a {
+  color: #F1EFE9;
+  background-color: none;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  display: inline-block;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F1EFE9;
+  border-radius: 30px;
+}
+#header a:hover {
+    background-color: #222222;
+    border-color: #222222;
+    transition: .2s;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #222222;
+  padding: 5vh 15vw;
+}
+#footer .split {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#footer .logo {
+  flex-basis: 40%;
+  align-items: center;
+  justify-content: center;
+}
+#footer img {
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
+#footer h2 {
+  flex-basis: 60%;
+  font-family: 'EB Garamond', serif;
+  font-size: 4.2vw;
+  color: #ffffff;
+}
+#footer .links {
+  flex-basis: 40%;
+  margin-bottom: 3rem;
+}
+#footer a {
+  font-size: 12px;
+  color: #ffffff;
+}
+#footer .addresses {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#footer .a, .b, .c {
+  margin-bottom: 1.5rem;
+}
+#footer b {
+  color: #ffffff;
+}
+#footer p {
+  color: #ffffff
+}
+#footer br {
+  margin-bottom: 1.5rem;
+}
